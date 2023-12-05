@@ -20,9 +20,7 @@ void drawCircleMidpoint(int radius) {
             d = d + 2 * x - 2 * y + 1;
         }
 
-        if (x >= y) {
-            break;
-        }
+      
 
 
      printf("state i:%d :\b",x);
