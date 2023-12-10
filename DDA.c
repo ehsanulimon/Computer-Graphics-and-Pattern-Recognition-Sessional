@@ -1,7 +1,7 @@
 #include <stdio.h>
 void drawLineDDA(int x1, int y1, int x2, int y2) {
-    int dx = x2 - x1;
-    int dy = y2 - y1;
+    int dx = abs(x2 - x1);
+    int dy = abs(y2 - y1);
     
    int k;
    if (abs(dx) > abs(dy)) {
