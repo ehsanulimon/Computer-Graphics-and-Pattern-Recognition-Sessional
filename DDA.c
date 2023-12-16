@@ -17,12 +17,12 @@ void drawLineDDA(int x1, int y1, int x2, int y2) {
     float x = x1, y = y1;
 
     printf("DDA Line Drawing:\n");
-    printf("(%.2f, %.2f)\n", x, y);
+    printf("(%.0f, %.0f)\n", x, y);
      int i=1;
     for (i = 1; i<=k; i++) {
         x += xi;
         y += yi;
-        printf("(%.2f, %.2f)\n", x, y);
+        printf("(%.0f, %.0f)\n", x, y);
     }
          
 }

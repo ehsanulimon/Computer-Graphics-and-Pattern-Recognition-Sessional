@@ -20,7 +20,7 @@ void drawCircleBresenham(int radius) {
 
         printf("(%d, %d)\n", x, y);
 
-   /*     if (x != 0 && y != 0) {
+         if (x != 0 && y != 0) {
             printf("(%d, %d)\n", y, x);
         }
 
@@ -32,7 +32,7 @@ void drawCircleBresenham(int radius) {
         if (x != y) {
             printf("(%d, %d)\n", -y, x);
             printf("(%d, %d)\n", -x, y);
-        } */
+        } 
     }
 }
 
